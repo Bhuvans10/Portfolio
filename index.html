@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" >
+    <title>It's My Portfolio</title>
+
+    <link rel="stylesheet" href="path/to/your-stylesheet.css">
+
+    <!-- linking bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <!-- linking google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- linking fontawesome icons -->
+    <link rel="stylesheet" href="css/all.min.css" />
+
+    <!-- linking css stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- link to favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- =================== start of navigation bar ================= -->
+
+    <nav class="header-area">
+      <div class="main-menu">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="img/logo-via-logohub.png"
+              alt="my portfolio"
+              style="width: 160px;"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="mr-auto"></div>
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#aboutme">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#education">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contactme">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </nav>
+
+    <!-- =================== end of navigation bar ================= -->
+
+    <!-- =================== start of header ================= -->
+
+    <header>
+      <div class="header__box">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 header__box--text">
+              <h2 class="exclaim">Hello there !</h2>
+              <h1 class="myname">I am Bhuvan S</h1>
+              <h3 class="profession">Software Developer</h3>
+              <div class="header__box--buttons">
+                <div class="d-flex flex-row flex-wrap">
+                  <button type="button" class="btn button button-primary">
+                    <p><a href="https://drive.google.com/file/d/1JRhuZUwHy3NYGcEy_b0Skj4rJVO_1I3s/view?usp=drivesdk " target="_blank">Get CV</a></p>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12 header__box--img">
+              <img
+                src="img/3236267.jpg"
+                alt="Web Developer"
+                id="home"
+                class="fluid-img"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="500"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- =================== end of header ================= -->
+
+    <!-- =================== start of About Me ==================== -->
+
+    <section class="aboutme section-gap-top">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-7 col-md-12 aboutme--left">
+            <img
+              src="img/undraw_about_me_wa29.png"
+              alt="aboutme"
+              id="aboutme"
+              class="aboutme--img"  
+            />
+          </div>
+          <div class="col-lg-5 col-md-12 aboutme--right">
+            <h4 class="aboutme--heading pt-5">About Me</h4>
+            <div class="py-5 aboutme--paragraph w-75">
+              <p class="para mb-3">
+                  I am an accomplished engineering student with expertise in AI/ML and computer vision, demonstrated through projects like Sign Language Detection and QR Code Detection. His skills include TensorFlow, Keras, OpenCV, and Django development. Certified in Azure DevOps, he combines technical knowledge with strong problem-solving and innovation.
+              </p>
+              <p class="para">
+                In extracurricular activities, Bhuvan is a national-level baseball and softball player, highlighting his teamwork and dedication. He has strong public speaking and leadership skills, contributing as a core team member for Youth for Seva (YFS). These experiences showcase his well-rounded personality and ability to thrive in dynamic environments.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- =================== end of About Me ==================== -->
+
+      <!-- =================== start of Skills ==================== -->
+
+      <section class="skills section-gap-top">
+        <h4 class="skills--heading">Skills</h4>
+        <div class="skills__box flexbox-even">
+          <div class="skills__box--skill">
+            <img src="img/html5-2.png" alt="HTML5" class="skills__box--img" />
+            <h5 class="skills__box--name my-4 py-4">HTML</h5>
+          </div>
+          <div class="skills__box--skill">
+            <img src="img/css3.png" alt="CSS3" class="skills__box--img" />
+            <h5 class="skills__box--name my-4 py-4">CSS</h5>
+          </div>
+          <div class="skills__box--skill">
+            <img src="img/Python.png" alt="Sass" class="skills__box--img" />
+            <h5 class="skills__box--name my-4 py-4">Python</h5>
+          </div>
+          <div class="skills__box--skill">
+            <img
+              src="img/bootstrap.png"
+              alt="Bootstrap"
+              id="skills"
+              class="skills__box--img"
+            />
+            <h5 class="skills__box--name my-4 py-4">Bootstrap</h5>
+          </div>
+          <div class="skills__box--skill">
+            <img
+              src="img/jscript.png"
+              alt="JavaScript ES5"
+              class="skills__box--img"
+            />
+            <h5 class="skills__box--name my-4 py-4">JavaScript </h5>
+          </div>
+        </div>
+
+        <!-- custom shape html code -->
+
+        <div class="custom-shape-divider-top-1593975700">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+              class="shape-fill"
+            ></path>
+          </svg>
+        </div>
+      </section>
+    </section>
+
+    <!-- =================== end of Skills ==================== -->
+
+
+    <!-- =================== start of Project ==================== -->
+    
+    <section class="project container-fluid section-gap-top">
+      <div class="row project__box">
+        <div class="col-lg-7 col-md-12 project__details">
+          <h4 class="education--heading pt-5 mb-5">Projects</h4>
+          <div class="project__box--accordion" id="projectaccordian">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0 education-btn--heading">
+                  <button
+                    class="btn btn-block text-left education--btn"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    Sign Language Detection
+                  </button>
+                </h2>
+              </div>
+
+              <div
+                id="collapseOne"
+                class="collapse show"
+                aria-labelledby="headingOne"
+                data-parent="#projectaccordian"
+              >
+                <div class="card-body education--body">
+                  The project involved collecting ASL gesture data, training an model using Tensorflow,
+                  and integrating it into a chatbot interface using Flask. OpenCV was used for webcam
+                  access and gesture detection. The final system was tested and deployed, showing
+                  reliable performance in real-time ASL recognition.
+
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0 project-btn--heading">
+                  <button
+                    class="btn btn-block text-left collapsed project--btn"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Online Voting System
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseTwo"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#projectaccordian"
+              >
+                <div class="card-body project--body">
+                  The College Online Voting System uses the 
+                  Incremental Model for phased development, 
+                  ensuring flexibility and easy updates. It 
+                  employs the RSA Algorithm for secure encryption 
+                  of votes and voter data, ensuring confidentiality 
+                  and integrity. This combination promotes transparency, 
+                  quick vote counting, data security, and user-friendly 
+                  voting experiences.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0 project-btn--heading">
+                  <button
+                    class="btn btn-block text-left collapsed project--btn"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    QR Code Detection
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseTwo"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#projectaccordian"
+              >
+                <div class="card-body project--body">
+                  The project is implemented using OpenCV and Python. A virtual environment is created,
+                  libraries are installed, and functions are defined to detect and decode QR codes from
+                  images. The system reads input images, processes them, and displays the decoded
+                  information. 
+                  </div>
+              </div>
+            </div>
+            <div class="Projects" id="projects"></div>
+            </div>
+          </section>
+
+<!-- =================== end of Project ==================== -->
+
+<!-- =================== Start of education ==================== -->
+    <section class="education container-fluid section-gap-top">
+      <div class="row education__box">
+        <div class="col-lg-7 col-md-12 education__details">
+          <h4 class="education--heading pt-5 mb-5">Education</h4>
+          <div class="education__box--accordion" id="educationaccordian">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0 education-btn--heading">
+                  <button
+                    class="btn btn-block text-left education--btn"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    Bachelor's Degree
+                  </button>
+                </h2>
+              </div>
+
+              <div
+                id="collapseOne"
+                class="collapse show"
+                aria-labelledby="headingOne"
+                data-parent="#educationaccordian"
+              >
+                <div class="card-body education--body">
+                  ATME College of Engineering, Mysore (2021 - 2025)
+                  Bhuvan S is currently pursuing a Bachelor of Engineering 
+                  in Computer Science and Engineering at ATME College of 
+                  Engineering, Mysore, with a CGPA of 7.70. His coursework
+                  has equipped him with a strong foundation in machine 
+                  learning, AI frameworks like TensorFlow and Keras, and
+                  web development using Django and Python. Bhuvan has also
+                  honed skills in computer vision with OpenCV and problem-
+                  solving, preparing him for innovative technological challenges.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0 education-btn--heading">
+                  <button
+                    class="btn btn-block text-left collapsed education--btn"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Pre-University Education
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseTwo"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#educationaccordian"
+              >
+                <div class="card-body education--body">
+                  MASVS Gurukula Pre-University College, Mysore (2019 - 2021)
+                  During his pre-university education at MASVS Gurukula 
+                  Pre-University College, Mysore, Bhuvan specialized in 
+                  PCMB (Physics, Chemistry, Mathematics, and Biology), 
+                  achieving a percentage of 78%. This phase laid the 
+                  groundwork for his technical aptitude and critical 
+                  thinking skills. His strong interest in problem-solving
+                  and analytical reasoning grew during these years, which
+                  greatly influenced his academic and career choices.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0 education-btn--heading">
+                  <button
+                    class="btn btn-block text-left collapsed education--btn"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    High School
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseThree"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#educationaccordian"
+              >
+                <div class="card-body education--body">
+                  S.M.S Academy of Central Education, Virajpet (2016 - 2019)
+                  Bhuvan completed his 10th standard at S.M.S Academy of 
+                  Central Education, Virajpet, achieving a CGPA of 6.4. He
+                  developed a robust foundation in core STEM subjects, 
+                  setting the stage for his future academic pursuits. 
+                  Alongside academics, he nurtured communication, teamwork,
+                  and leadership abilities that played a pivotal role in 
+                  his personal and educational growth.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-12 education__box--img">
+          <img
+            src="img/undraw_certificate_343v.png"
+            alt="Education"
+            id="education"
+            class="education--img"/>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contactme">
+      <h2>Contact</h2>
+      <p>Phone: +91 999 999 9999</p>
+      <p>Email: bhuvans2103@gmail.com</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/bhuvans10/" target="_blank">Bhuvan's LinkedIn</a></p>
+    </footer>
+    
+
+    <!-- =================== end of Education ==================== -->
+
+    <!-- script linking to bootstrap -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js">
+    </script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
